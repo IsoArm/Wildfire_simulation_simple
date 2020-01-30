@@ -7,7 +7,7 @@ wildfire<-function(p, burning, total_trees){
     burned<- burned + new_burns
   }
   if(burned > total_trees){
-    return(1000)
+    return(total_trees)
   }else{
     return(burned)
   }
